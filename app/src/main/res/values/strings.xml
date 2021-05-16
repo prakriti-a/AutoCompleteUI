@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AutoCompleteUI</string>
+    <string name="title">Welcome to PetCares!</string>
+    <string name="book">Get your own pet today!</string>
+    <string name="hint_pet">What animal are you interested in?</string>
+    <string name="hint_breed">Which breeds are you considering?</string>
+    <string name="buy">I\'m ready to buy!</string>
+    <string name="breeds">Show Available Breeds!</string>
+</resources>

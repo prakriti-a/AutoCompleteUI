@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/text"
+        android:textColor="@color/white"
+        android:background="@color/teal_700"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book"
+        android:textSize="@dimen/text"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pet"
+        android:textSize="@dimen/text"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnGetBreeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/breeds"
+        android:textSize="@dimen/text"
+        android:layout_margin="@dimen/margin"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_breed"
+        android:textSize="@dimen/text"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:textSize="@dimen/text"
+        android:layout_margin="@dimen/margin"/>
+
+</LinearLayout>
